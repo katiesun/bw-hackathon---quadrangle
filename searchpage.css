@@ -75,13 +75,13 @@
     cursor: pointer;
     display: inline-block;
     color: white;
+    margin-bottom: 40px;
   }
   
   /* On mouse-over */
-  .addproject:hover {background: rgb(83, 119, 138);
-              color: white; }
-
-
+  .addproject:hover {
+      background: rgb(83, 119, 138);
+      color: white; }
 
 
 body {
