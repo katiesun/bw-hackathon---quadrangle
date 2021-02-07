@@ -7,14 +7,26 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="searchpage.css">
     </head>
+
     <body>
         <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <input type="text" placeholder="Search..">
-          </div>
+            <a href="#home">Home</a>
+            <a class="active" href="#projects">Projects</a>
+            <a href="#profiles">Profiles</a>
+        </div>
+
+        <button class="btn addproject">add new project</button>
+
         <div class="container">
+            <!-- Load icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- The form -->
+            <form class="example" action="action_page.php">
+            <input type="text" placeholder="Find your next project..." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
             <div class="card mt-5 border-5 pt-2 active pb-0 px-3">
                 <div class="card-body ">
                     <div class="row">
@@ -40,11 +52,64 @@
                     </div>
                 </div>
             </div>
+
             <div class="card mt-5 border-5 pt-2 active pb-0 px-3">
                 <div class="card-body ">
                     <div class="row">
                         <div class="col-12 ">
                             <h4 class="card-title "><b>Project Title 2</b></h4>
+                        </div>
+                        <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> <span class="vl mr-2 ml-0"></span> <i class="fa fa-users text-muted "></i> Public <span class="vl ml-1 mr-2 "></span> <span></span>Updated by <span class="font-weight-bold"> BBBootstrap Team</span> on 1 Nov , 2018 </p>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-white px-0 ">
+                    <div class="row">
+                        <div class=" col-md-auto "> <a href="#" class="btn btn-outlined btn-black text-muted bg-transparent" data-wow-delay="0.7s"><img src="https://img.icons8.com/ios/50/000000/settings.png" width="19" height="19"> <small>SETTINGS</small></a> <i class="mdi mdi-settings-outline"></i> <a href="#" class=" btn-outlined btn-black text-muted"><img src="https://img.icons8.com/metro/26/000000/link.png" width="17" height="17" id="plus"> <small>PROGRAM LINK</small> </a> <a href="#" class="btn btn-outlined btn-black text-muted "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more"><small>MORE</small></a> <span class="vl ml-3"></span> </div>
+                        <div class="col-md-auto ">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035909/Pra/Loren-profile-pic-circle.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035929/Pra/59d280613165c000014cc031_circleniamhhogan.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035929/Pra/59d280613165c000014cc031_circleniamhhogan.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> </li>
+                                <li class="list-inline-item"> <img src="https://img.icons8.com/ios/50/000000/plus.png" width="30" height="30 " class="more"> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-5 border-5 pt-2 active pb-0 px-3">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <h4 class="card-title "><b>Project Title 3</b></h4>
+                        </div>
+                        <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> <span class="vl mr-2 ml-0"></span> <i class="fa fa-users text-muted "></i> Public <span class="vl ml-1 mr-2 "></span> <span></span>Updated by <span class="font-weight-bold"> BBBootstrap Team</span> on 1 Nov , 2018 </p>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-white px-0 ">
+                    <div class="row">
+                        <div class=" col-md-auto "> <a href="#" class="btn btn-outlined btn-black text-muted bg-transparent" data-wow-delay="0.7s"><img src="https://img.icons8.com/ios/50/000000/settings.png" width="19" height="19"> <small>SETTINGS</small></a> <i class="mdi mdi-settings-outline"></i> <a href="#" class=" btn-outlined btn-black text-muted"><img src="https://img.icons8.com/metro/26/000000/link.png" width="17" height="17" id="plus"> <small>PROGRAM LINK</small> </a> <a href="#" class="btn btn-outlined btn-black text-muted "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more"><small>MORE</small></a> <span class="vl ml-3"></span> </div>
+                        <div class="col-md-auto ">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035909/Pra/Loren-profile-pic-circle.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035929/Pra/59d280613165c000014cc031_circleniamhhogan.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035929/Pra/59d280613165c000014cc031_circleniamhhogan.png" alt="DP" class=" rounded-circle img-fluid " width="35" height="35"> </li>
+                                <li class="list-inline-item"> <img src="https://img.icons8.com/ios/50/000000/plus.png" width="30" height="30 " class="more"> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-5 border-5 pt-2 active pb-0 px-3">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <h4 class="card-title "><b>Project Title 4</b></h4>
                         </div>
                         <div class="col">
                             <h6 class="card-subtitle mb-2 text-muted">
