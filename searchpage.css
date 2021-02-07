@@ -1,6 +1,144 @@
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #c8d5db;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #5e94ad;
+    color: white;
+  }
+
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #677f8a;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* add project button */
+  .addproject {
+    border: none;
+    background-color: #6b8d9c;
+    padding: 7px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+  }
+  
+  /* On mouse-over */
+  .addproject:hover {background: rgb(83, 119, 138);
+              color: white; }
+
+
+
+
 body {
     font-family: 'Rubik', sans-serif;
     height: 100% !important;
     background-color: #97bbcc !important
 }
 
+#star {
+    margin-left: -5px !important;
+    vertical-align: bottom !important;
+    opacity: 0.5
+}
+
+.more {
+    opacity: 0.5 !important
+}
+
+.btn:hover {
+    color: black !important
+}
+
+.vl {
+    margin: 8px !important;
+    width: 2px;
+    border-right: 1px solid #aaaaaa;
+    height: 25px
+}
+
+#plus {
+    opacity: 0.8
+}
+
+.card {
+    border-radius: 10px !important
+}
+
+a:hover {
+    background-color: #ccc !important
+}
+
+.btn-outlined:active {
+    color: #FFF;
+    border-color: #fff !important
+}
+
+img {
+    cursor: pointer;
+    overflow: visible
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.container {
+    margin-top: 100px !important
+}
