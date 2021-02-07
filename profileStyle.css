@@ -18,12 +18,12 @@ body {
 }
 
 .profile-button:focus {
-    background: #682773;
+    background: #0220c9;
     box-shadow: none
 }
 
 .profile-button:active {
-    background: #682773;
+    background: #0220c9;
     box-shadow: none
 }
 
@@ -42,3 +42,4 @@ body {
     cursor: pointer;
     border: solid 1px #00ccff
 }
+
